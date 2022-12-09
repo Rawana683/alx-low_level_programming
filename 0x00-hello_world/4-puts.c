@@ -1,5 +1,14 @@
 #include <stdio.h>
+
+/*
+ *main - Entry point
+ *Return: Always 0
+ */
+
 int main(void)
-{ 
-       int puts ("Programming is like building a mu tilingual puzzle");
+
+{
+            puts (""Programming is like building a multilingual puzzle");
+	    return (0);
+
 }
