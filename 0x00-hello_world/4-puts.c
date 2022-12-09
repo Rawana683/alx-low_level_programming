@@ -1,5 +1,6 @@
 #include <stdio.h>
 /*
+*Describtion: this is about using puts function
 *main - Entry point
 *Return: Always 0
 */
