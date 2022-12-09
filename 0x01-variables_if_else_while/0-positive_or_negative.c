@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdio>
+#include <stdio.h>
 /**
 * main - Entry point
 *Description: 'this program is about printing whether a number is + or -'
