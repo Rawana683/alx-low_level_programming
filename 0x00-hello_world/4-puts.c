@@ -1,7 +1,7 @@
 #include <stdio.h>
 /*
-*Describtion: this is about using puts function
 *main - Entry point
+*Description: 'this program is about printing string using puts function'
 *Return: Always 0
 */
 int main(void)
