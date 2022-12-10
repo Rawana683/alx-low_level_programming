@@ -7,8 +7,12 @@
 int main(void)
 
 {
-do {char alpha; putchar(alpha); }
-while (alpha != 'q' || alpha != 'e');
+char alpha;
+for ( alpha = 'a' ; alpha <= 'z' ; alpha++ )
+{
+if( alpha != 'q' || alpha != 'e')
+{ putchar(alpha); }
+}
 putchar('\n');
 return (0);
 }
