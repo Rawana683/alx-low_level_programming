@@ -9,7 +9,7 @@ int main(void)
 {
 char alpha;
 do {putchar(alpha); }
-while (alpha != 'q' || alpha != 'e')
+while (alpha != 'q' || alpha != 'e');
 putchar('\n');
 return (0);
 }
