@@ -1,10 +1,9 @@
 #include <stdio.h>
 
 /**
-*
-* main - Print single digit numbers in the formart
-* Description: 'numbers sebarated by commas'
-* Return: Always(0) Success
+*main - Entry point
+*Description: 'numbers sebarated by commas'
+*Return: Always(0) Success
 */
 int main(void)
 {
