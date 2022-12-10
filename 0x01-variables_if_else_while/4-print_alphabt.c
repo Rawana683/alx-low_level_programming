@@ -7,8 +7,7 @@
 int main(void)
 
 {
-char alpha;
-do {putchar(alpha); }
+do {char alpha; putchar(alpha); }
 while (alpha != 'q' || alpha != 'e');
 putchar('\n');
 return (0);
