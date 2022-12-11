@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  * Description: 'printing all compinations'
- * Return : Always(0) (Success)
+ * Return : Always(1) (Success)
 */
 int main(void)
 {
@@ -30,10 +30,11 @@ int main(void)
 					putchar(',');
 					putchar(' ');
 				}
+				}
 			}
 		}
 	}
 	putchar('\n');
-	return (0);
+	return (1);
 }
 
