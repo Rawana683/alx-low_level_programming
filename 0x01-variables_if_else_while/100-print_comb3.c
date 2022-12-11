@@ -2,17 +2,23 @@
 /**
 *main - Entry point
 *Description: 'this program is to print compined numbers'
-*Return : Always (0) (Success)
+*Return : Always(0) (Success)
 */
 int main(void)
 {
-	int n[10];
-	int i[10];
-	for (n[0] = 48, i[0] = 57 ; n[10] < 58 && i[10] > 48 ; n++, i--)
+	int n;
+	for (n = 48 ; n < 58 ; n++)
 {
-	putchar(n[], i[]);
-	putchar(i[], n[]);
-if (n != 57)
+	for (int i = 48 ; i < 58 ; i++)
+{
+	if (i==n)
+{
+	continue;
+}
+
+	putchar(n);
+	putchar(i);
+if (n != 57 && i != 57)
 {
 	putchar(',');
 	putchar(' ');
