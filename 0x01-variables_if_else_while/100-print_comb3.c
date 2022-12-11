@@ -26,7 +26,7 @@ if (n == 56 && i == 57)
 {
 	break;
 }
-else
+if (n != 57 && i != 57)
 {
 	putchar(',');
 	putchar(' ');
