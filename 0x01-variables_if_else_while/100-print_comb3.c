@@ -8,11 +8,12 @@ int main(void)
 {
 	int n;
 	int i;
+
 	for (n = 48 ; n < 58 ; n++)
 {
 	for (i = 48 ; i < 58 ; i++)
 {
-	if (i==n)
+	if (i == n)
 {
 	continue;
 }
@@ -20,6 +21,10 @@ int main(void)
 	putchar(n);
 	putchar(i);
 if (n != 57 && i != 57)
+{
+	break;
+}
+else
 {
 	putchar(',');
 	putchar(' ');
