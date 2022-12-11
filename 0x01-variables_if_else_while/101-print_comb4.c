@@ -16,14 +16,8 @@ int main(void)
 		{
 			for (c = 50 ; c < 58 ; c++)
 			{
-				if (b == c)
+				if (!((c == b) || (b == a) || (b > c) || (a > b)))
 				{
-					continue;
-				}
-				if (a == b)
-				{
-					continue;
-				}
 				putchar(a);
 				putchar(b);
 				putchar(c);
