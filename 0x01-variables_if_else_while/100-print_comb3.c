@@ -7,9 +7,10 @@
 int main(void)
 {
 	int n;
+	int i;
 	for (n = 48 ; n < 58 ; n++)
 {
-	for (int i = 48 ; i < 58 ; i++)
+	for (i = 48 ; i < 58 ; i++)
 {
 	if (i==n)
 {
@@ -22,6 +23,7 @@ if (n != 57 && i != 57)
 {
 	putchar(',');
 	putchar(' ');
+}
 }
 }
 putchar('\n');
