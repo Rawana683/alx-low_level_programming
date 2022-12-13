@@ -1,4 +1,5 @@
 #include "main.h"
+#include <unistd.ht>
 /**
  * main - Entry point
  * Description 'this program is to print alphabet'
