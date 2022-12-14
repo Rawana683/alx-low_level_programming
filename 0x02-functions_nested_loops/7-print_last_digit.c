@@ -13,8 +13,7 @@ int print_last_digit(int n)
 	int a;
 
 	l = abs(n) % 10;
+
 	for (a = 0 ; a < 2 ; a++)
-	{
-	return (l);
-	}
+		return (l);
 }
