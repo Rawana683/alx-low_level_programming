@@ -8,19 +8,12 @@
  */
 int _islower(int c)
 {
-	char i;
-	char e;
-
-	i = '0';
-       	e = '1';	
-
 	if (islower(c))
 	{
-	_putchar(e);
+	return (1);
 	}
 	else
 	{
-	_putchar(i);
-	}
 	return (0);
+	}
 }
