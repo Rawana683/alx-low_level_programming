@@ -22,4 +22,5 @@ int _islower(int c)
 	{
 	_putchar(i);
 	}
+	return (0);
 }
