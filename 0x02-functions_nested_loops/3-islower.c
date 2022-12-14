@@ -13,4 +13,5 @@ int _islower(int c)
 	_putchar('1');
 	isupper(c);
 	_putchar('0');
+	return (0);
 }
