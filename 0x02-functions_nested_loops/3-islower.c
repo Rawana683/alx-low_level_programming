@@ -8,11 +8,11 @@
  */
 int _islower(int c)
 {
-	int i;
-	int e;
+	char i;
+	char e;
 
-	i = 48;
-       	e = 49;	
+	i = '0';
+       	e = '1';	
 
 	if (islower(c))
 	{
@@ -22,5 +22,4 @@ int _islower(int c)
 	{
 	_putchar(i);
 	}
-	return (0);
 }
