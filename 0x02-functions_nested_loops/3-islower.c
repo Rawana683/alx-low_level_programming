@@ -8,10 +8,10 @@
  */
 int _islower(int c)
 {
-	int i;
+	int c;
 
-	islower(i);
+	islower(c);
 	_putchar('1');
-	isupper(i);
+	isupper(c);
 	_putchar('0');
 }
