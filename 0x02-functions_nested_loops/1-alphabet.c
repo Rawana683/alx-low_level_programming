@@ -2,11 +2,13 @@
 #include <unistd.h>
 /**
  * main - Entry point
- * Description 'this program is to print alphabet'
+ * Description 'this function is to print alphabet'
  * Return: Always 0 (Success)
 */
-int main(void)
+void  print_alphabet(void)
 {
-	print_alphabet();
-	return (0);
+	int i;
+	for (i = 48 ; i < 58 ; i++)
+		_putchar(i);
+	_putchar('\n');
 }
