@@ -15,7 +15,15 @@ void more_numbers(void)
 	{
 		for (c = 0 ; c < 15 ; c++)
 		{
-			printf("%d", c);
+			if  (c < 10)
+			{
+			_putchar(c);
+			}
+			else if (c >= 10)
+			{
+				_putchar('1');
+				_putchar(c % 10 + '0');
+			}
 		}
 		printf("\n");
 	}
