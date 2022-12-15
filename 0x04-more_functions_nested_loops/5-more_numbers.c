@@ -13,15 +13,11 @@ void more_numbers(void)
 
 	for (n = 0; n < 10 ; n++)
 	{
-		for (c = 48 ; c < 58 ; c++)
+		for (c = 0 ; c < 15 ; c++)
 		{
-			_putchar(c);
-			if (c > 57)
-			{
-				_putchar('1');
-				_putchar(n % 10 + '0');
-			}
-				printf("\n");
+			printf("%d",c);
 		}
+		printf("\n");
 	}
+
 }
