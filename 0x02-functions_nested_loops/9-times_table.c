@@ -16,7 +16,7 @@ void times_table(void)
 		while (m < 10)
 		{
 			x = n * m;
-			printf(" %i,", x);
+			printf(" %d,", x);
 			_putchar('\n');
 			m++;
 		}
