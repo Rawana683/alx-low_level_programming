@@ -8,18 +8,19 @@
 void times_table(void)
 {
 	int n;
-	int m;
-	int x;
 
 	for (n = 0 ; n < 10 ; n++)
 	{
-		while (m < 10)
-		{
-			x = n * m;
-			printf(" %d,", x);
-			break;
-		}
-		printf("\n");
-		m++;
+		a = n * 0
+			b = n * 1
+			c = n * 2
+			d = n * 3
+			e = n * 4
+			f = n * 5
+			g = n * 6
+			h = n * 7
+			i = n * 8
+			j = n * 9
+printf(" %d, %d, %d, %d, %d, %d, %d, %d, %d, %d", a, b, c, d, e, f, g, h, i, j);	printf("\n");
 	}
 }
