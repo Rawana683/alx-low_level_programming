@@ -11,17 +11,17 @@ void more_numbers(void)
 	int n;
 	int c;
 
-	n = 0;
-	while (n < 10)
+	for (n = 0; n < 10 ; n++)
 	{
-		for (c = '0' ; (c <= '9' + '5') ; c++)
+		for (c = 0 ; c <= 14 ; c++)
 		{
-			_putchar(c);
-			if ((c == '9' + '5'))
+			printf("%d, ", c);
+			if (c >= 10)
 			{
-				_putchar('\n');
+				_putchar('1');
+				_putchar(n % 10 + '0');
 			}
+				_putchar('\n');
 		}
 	}
-	_putchar('\n');
 }
