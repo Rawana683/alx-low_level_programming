@@ -1,11 +1,12 @@
 #include "main.h"
 #include <stdio.h>
+#include <ctype.h>
 
 /**
  * _isupper - Entry point
- *@c : number to check
+ * @c : number to check
  *Description : 'function to chech upper case'
- *Return: 1 if it is upper case. other wise 0. (Success)
+ * Return: 1 if it is upper case. other wise 0. (Success)
  */
 int _isupper(int c)
 {
