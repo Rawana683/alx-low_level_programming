@@ -1,4 +1,4 @@
-#include "maiin.h"
+#include "main.h"
 #include <stdio.h>
 
 /**
@@ -9,7 +9,7 @@
  */
 int _isupper(int c)
 {
-	if (isupper(c))
+	if (isupper(c) == 1)
 	{
 		return (1);
 	}
