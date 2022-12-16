@@ -9,7 +9,7 @@
 int main(void)
 {
 	int i;
-	int m;
+
 	for (i = 1 ; i <= 100 ; i++)
 	{
 		printf("%d ", i);
@@ -26,4 +26,5 @@ int main(void)
 			printf("FizzBuzz ");
 		}
 	}
+	return (0);
 }
