@@ -8,22 +8,18 @@
  */
 void more_numbers(void)
 {
-	int n, i;
+	int i, j;
 
-	for (n = 0; n <= 10; n++)
+	for (i = 1; i <= 10; i++)
 	{
-	for (i = 0; i <= 14; i++)
-	{
-	if (i >= 10)
-	{
-	_putchar('1');
-	_putchar((i % 10) + '0');
+		for (j = 0; j <= 14; j++)
+		{
+			if (j >= 10)
+			{
+				_putchar('1');
+			}
+		_putchar((i % 10) + '0');
+		}
 	}
-	else
-	{
-	_putchar(i % 10 + '0');
-	}
-	}
-	printf("\n");
-	}
+	_putchar('\n');
 }
