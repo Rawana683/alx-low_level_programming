@@ -15,7 +15,7 @@ void rev_string(char *s)
 	len = 0;
 	o = 0;
 
-	if ( s = ' ')
+	if ( s == ' ')
 	{
 		_putchar(' ');
 	}
@@ -26,6 +26,9 @@ void rev_string(char *s)
 	for (; len >= o; len--)
 	{
 		_putchar(s[len]);
+		if (len = i)
+		{
+			break;
+		}
 	}
-	break;
 }
