@@ -15,18 +15,18 @@ void rev_string(char *s)
 	len = 0;
 	o = 0;
 
-	if ( s == ' ')
-	{
-		_putchar(' ');
-	}
 	for (i = 0; s[i] != '\0' ; i++)
 	{
 		len = i;
 	}
+	if (len == 1)
+	{
+		_putchar(' ');
+	}
 	for (; len >= o; len--)
 	{
 		_putchar(s[len]);
-		if (len = i)
+		if (len == i)
 		{
 			break;
 		}
