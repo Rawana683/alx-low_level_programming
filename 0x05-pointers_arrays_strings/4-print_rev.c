@@ -20,6 +20,6 @@ void print_rev(char *s)
 		_putchar(s[len]);
 		i++;
 		len--;
-	}	while (s[i] != '\0');
+	}	while (i < len);
 	_putchar('\n');
 }
