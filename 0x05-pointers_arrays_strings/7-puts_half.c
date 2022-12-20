@@ -26,6 +26,10 @@ void puts_half(char *str)
 			half++;
 		}
 	}
+	else if (len == 1)
+	{
+		_putchar(' ');
+	}
 	else
 	{
 		half = ((len - 1) / 2) + 1;
