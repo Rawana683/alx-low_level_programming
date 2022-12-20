@@ -16,12 +16,12 @@ void rev_string(char *s)
 	i = 0;
 	len = 0;
 
-	len = strlen[s] - 1
+	len = strlen[s] - 1;
 		while (i < len)
 		{
 			o = s[i];
-			s[i] = s[len]
-			s[len] = o
+			s[i] = s[len];
+			s[len] = o;
 			i++;
 			len--;
 		}
