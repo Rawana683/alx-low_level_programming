@@ -26,18 +26,18 @@ void puts_half(char *str)
 			half++;
 		}
 	}
-	else if (*str = ' ')
+	else if
 	{
-		_putchar('\n');
-	}
-	else
-	{
-		half = ((len - 1) / 2) + 1;
+		half = ((len - 1) / 2) +1;
 		while (str[half]  != '\0')
 		{
 			_putchar(str[half]);
 			half++;
 		}
+	else
+	{
+		_putchar('\n');
+	}
 	}
 	_putchar('\n');
 }
