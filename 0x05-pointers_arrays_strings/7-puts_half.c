@@ -26,9 +26,9 @@ void puts_half(char *str)
 			half++;
 		}
 	}
-	else if (len == 1)
+	else if (str == ' ')
 	{
-		_putchar(' ');
+		_putchar('\n');
 	}
 	else
 	{
