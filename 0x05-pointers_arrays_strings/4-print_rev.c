@@ -21,7 +21,7 @@ void print_rev(char *s)
 		_putchar(s[len]);
 		i++;
 		len--;
-		if ( len = i )
+		if ( len == i )
 		{
 			break;
 		}
