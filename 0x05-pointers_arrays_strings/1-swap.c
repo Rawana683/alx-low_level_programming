@@ -14,8 +14,10 @@ void swap_int(int *a, int *b)
 	int *first;
 	int *second;
 
+	one = two;
+	two = one;
 	first = &one;
 	second = &two;
 	*a = *second;
-	*b = *first;
+	*b = *first;	
 }
