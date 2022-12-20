@@ -14,6 +14,6 @@ void print_rev(char *s)
 
 	for (i = 15 ; i >= 0; i--)
 	{
-		puts(a[i]);
+		putc(a[i]);
 	}
 }
