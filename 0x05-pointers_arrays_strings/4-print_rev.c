@@ -21,13 +21,9 @@ void print_rev(char *s)
 	{
 		len = i - 1;
 	}
-	if (s[i] == ' ')
+	for (; len >= o ; len--)
 	{
-		_putchar('\n');
+		_putchar(s[len]);
 	}
-		for (; len >= o ; len--)
-		{
-			_putchar(s[len]);
-		}
 	_putchar('\n');
 }
