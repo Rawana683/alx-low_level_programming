@@ -26,5 +26,4 @@ char *_strdup(char *str)
 	}
 	strr[len] = '\0';
 	return (strr);
-	free(strr);
 }
