@@ -15,30 +15,42 @@ char *str_concat(char *s1, char *s2)
 	int len1;
 	int len2;
 	int m;
-	char *s4;
-	char *s5;
-	int len3;
 
-	len1 = 0;
-	len2 = 0;
-	len3 = len1 + len2;
-	s3 = malloc(sizeof(char) * (len1 + 1));
-	s4 = malloc(sizeof(char) * (len2 + 1));
-	s5 = malloc(sizeof(char) * (len3 + 1));
-	for (i = 0; s1[i] ; i++)
+	if (s1 == NULL)
 	{
-		/*if (s1[i] == '\0')
-		*{
-		*	s1[i] = "";
-		*/
+		s1 = "";
+	}
+	if (s2 == NULL)
+	{
+		s2 = "";
+	}
+	for (len1 = 0; s1[len1] != '\0' ; len1++)
+	{
+		continue;
+	}
+	for (len2 = 0; s2[len2] != '\0'; len2++)
+	{
+		continue;
+	}
+
+	s3 = malloc(sizeof(char) * ((len1 + len2) + 1));
+	if (s3 == NULL)
+	{
+		return (NULL);
+	}
+	i = 0;
+	while (i < len1)
+	{
 		s3[i] = s1[i];
-		len1++;
+		i++;
 	}
-	for (m = 0; s2[m]; m++)
+	m = 0;
+	while (i < (len1 + len2))
 	{
-		s4[m] = s2[m];
-		len2++;
+		s3[i] = s2[m];
+		i++;
+		m++;
 	}
-	s5[len3] = '\0';
-	return (s5);
+	s3[i] = '\0';
+	return (s3);
 }
