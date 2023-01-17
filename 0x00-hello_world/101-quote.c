@@ -2,7 +2,7 @@
 /**
 *main - Entry point
 *Description: ' this program is to print a quote'
-*Return : Always 1 (Success)
+* Return : Always(1) (Success)
 */
 int main(void)
 {
