@@ -8,6 +8,7 @@
 void print_char(va_list argptr)
 {
 	char character;
+
 	character = va_arg(argptr, int);
 	printf("%c", character);
 }
@@ -18,6 +19,7 @@ void print_char(va_list argptr)
 void print_int(va_list argptr)
 {
 	int num_i;
+
 	num_i = va_arg(argptr, int);
 	printf("%i", num_i);
 }
@@ -28,6 +30,7 @@ void print_int(va_list argptr)
 void print_float(va_list argptr)
 {
 	float num_f;
+
 	num_f = va_arg(argptr, double);
 	printf("%f", num_f);
 }
@@ -38,6 +41,7 @@ void print_float(va_list argptr)
 void print_string(va_list argptr)
 {
 	char *str;
+
 	str = va_arg(argptr, char*);
 	if (str == NULL)
 	{
@@ -58,6 +62,7 @@ void print_all(const char * const format, ...)
 	va_list arguments;
 	int index, arg_len;
 	char *separator = "";
+
 	prints_t fmt_list[] = {
 			{"c", print_char},
 			{"i", print_int},
