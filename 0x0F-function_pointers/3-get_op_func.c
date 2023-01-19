@@ -4,7 +4,7 @@
  * get_op_func - choose the operator
  * @s : func to use
  * description : "selest the operator"
- * return: result
+ * Return: result
  */
 int (*get_op_func(char *s))(int, int)
 {
