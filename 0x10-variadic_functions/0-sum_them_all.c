@@ -19,6 +19,11 @@ int sum_them_all(const unsigned int n, ...)
 	{
 		int n;
 
+		if (n == 0)
+		{
+			return (0);
+		}
+
 		n = va_arg(ap, unsigned int);
 		sum += n;
 	}
