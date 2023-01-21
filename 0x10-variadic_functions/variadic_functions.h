@@ -10,7 +10,7 @@ typedef struct prints
 		char *notation;
 		void (*print_dType)(va_list argptr);
 } prints_t;
-
+char _putchar(char c);
 void print_char(va_list argptr);
 void print_int(va_list argptr);
 void print_float(va_list argptr);
