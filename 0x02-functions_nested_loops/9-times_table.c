@@ -15,7 +15,6 @@ void times_table(void)
 	{
 		for (a = 0; a < 10; a++)
 		{
-		
 			r = n * a;
 			printf("%d", r);
 			if (a != 9)
@@ -30,7 +29,6 @@ void times_table(void)
 				printf("  ");
 			}
 			}
-			
 		}
 		printf("\n");
 	}
