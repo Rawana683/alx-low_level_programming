@@ -16,18 +16,30 @@ void times_table(void)
 		for (a = 0; a < 10; a++)
 		{
 			r = n * a;
-			printf("%d", r);
-			if (a != 9)
-			{
-			printf(",");
 			if (r > 9)
 			{
-				printf(" ");
+				printf(" %d", r);
+				if (a != 9)
+				{
+					printf(",");
+				}
 			}
-			else
+			else if (r <= 9)
 			{
-				printf("  ");
-			}
+				if (r == 0)
+				{
+					printf("0,");
+				}
+				else
+				{
+					printf("  ");
+					printf("%d", r);
+				
+					if (a != 9)
+					{
+						printf(",");
+					}
+				}
 			}
 		}
 		printf("\n");
