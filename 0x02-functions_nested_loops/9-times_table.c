@@ -7,9 +7,7 @@
  */
 void times_table(void)
 {
-	int n;
-	int a;
-	int r;
+	int n, a, r;
 
 	for (n = 0 ; n < 10 ; n++)
 	{
@@ -20,23 +18,28 @@ void times_table(void)
 			{
 				printf(" %d", r);
 				if (a != 9)
-				{
 					printf(",");
-				}
 			}
 			else if (r <= 9)
 			{
-				if (r == 0)
+				if (n == 0)
 				{
-					printf("0,");
+					printf("0");
+					if (a != 9)
+					{
+						printf(",");
+						printf("  ");
+					}
 				}
 				else
 				{
+					if (r == 0)
+						printf("0,");
+					else
+					{
 					printf("  ");
 					printf("%d", r);
-				
 					if (a != 9)
-					{
 						printf(",");
 					}
 				}
