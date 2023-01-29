@@ -18,6 +18,8 @@ void times_table(void)
 		
 			r = n * a;
 			printf("%d", r);
+			if (a != 9)
+			{
 			printf(",");
 			if (r > 9)
 			{
@@ -26,6 +28,7 @@ void times_table(void)
 			else
 			{
 				printf("  ");
+			}
 			}
 			
 		}
