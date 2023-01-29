@@ -9,28 +9,26 @@ void times_table(void)
 {
 	int n;
 	int a;
-	int b;
-	int c;
-	int d;
-	int e;
-	int f;
-	int g;
-	int h;
-	int i;
-	int j;
+	int r;
 
 	for (n = 0 ; n < 10 ; n++)
 	{
-		a = n * 0;
-			b = n * 1;
-			c = n * 2;
-			d = n * 3;
-			e = n * 4;
-			f = n * 5;
-			g = n * 6;
-			h = n * 7;
-			i = n * 8;
-			j = n * 9;
-printf(" %d, %d, %d, %d, %d, %d, %d, %d, %d, %d", a, b, c, d, e, f, g, h, i, j);	printf("\n");
+		for (a = 0; a < 10; a++)
+		{
+		
+			r = n * a;
+			printf("%d", r);
+			printf(",");
+			if (r > 9)
+			{
+				printf(" ");
+			}
+			else
+			{
+				printf("  ");
+			}
+			
+		}
+		printf("\n");
 	}
 }
