@@ -3,19 +3,16 @@
 #include <stdlib.h>
 
 /**
- * free_listsint2 - free lists
+ * free_listint2 - free lists
  * @head : pointer to struct
- * description : "free lists and set head to null"
+ * Description: "free lists and set head to null"
  * Return: 0.
  */
 void free_listint2(listint_t **head)
 {
 	listint_t *tmp;
 
-	if (*head == NULL)
-	{
-		return;
-	}
+
 	while (*head)
 	{
 		tmp = (*head)->next;
