@@ -1,10 +1,10 @@
 #include "lists.h"
 #include <stdio.h>
 /**
- *
- *
- *
- *
+ * listint_len - print no elements
+ * @h : linked list
+ * description : "print no of elements"
+ * Return: count
  */
 size_t listint_len(const listint_t *h)
 {
